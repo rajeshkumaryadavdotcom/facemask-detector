@@ -1,0 +1,15 @@
+#facemask-banner {
+  background-image: url(../img/facemask-sprite.png);
+  background-repeat: no-repeat;
+  background-position: -302px 0px;
+  height: 200px;
+  width: 133px;
+  display: inline-block;
+  background-size: cover;
+}
+#facemask-banner.no-mask {
+  background-position: -154px 0px;
+}
+#facemask .p5Canvas {
+  border-radius: 20px;
+}
